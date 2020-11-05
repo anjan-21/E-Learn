@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Learn</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ****************************************   **************************************** -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Navbar content -->
+      <a class="navbar-brand" href="#">E-Learn</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Your Courses</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Machine Learning</a>
+              <a class="dropdown-item" href="#">Android Programming</a>
+              <a class="dropdown-item" href="#">Web Development</a>
+              <a class="dropdown-item" href="#">IOS Programming</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- ****************************************   **************************************** -->
+    <div class="jumbotron jumbotron-fluid d-flex align-items-center">
+      <div class="container-fluid text-white ml-5">
+        <h1 class="display-4 font-weight-bold">Step up your skills</h1>
+        <p class="lead font-weight-bold">
+          Get the tech skills you need with courses from Rs.770!
+        </p>
+      </div>
+    </div>
+    <!-- ****************************************   **************************************** -->
+    <div class="container-fluid fp__bottom text-white mt-0">
+      <div class="row text-center">
+        <div class="col-lg-4 my-4">
+          <h2>10,000 online Courses</h2>
+          <p>Explore a variety of fresh topics</p>
+        </div>
+        <div class="col-lg-4 my-4">
+          <h2>Expert Instruction</h2>
+          <p>Find the right instructor for you</p>
+        </div>
+        <div class="col-lg-4 my-4">
+          <h2>Lifetime access</h2>
+          <p>Learn on your schedule</p>
+        </div>
+      </div>
+    </div>
+    <!-- ****************************************   **************************************** -->
+    <div
+      class="container-fluid py-5 courses__card pl-5 position-relative"
+      id="courses"
+    >
+      <div class="row">
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/python.png"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Python"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Complete Python Bootcamp</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/web-dev.jpg"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Respionsive Websites"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Build Respionsive Websites: Frontend 101
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/docker.png"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Docker Mastery"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Docker Mastery : The Complete Toolset</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/Vue.png"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Vue JS 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vue JS 2 : The Complete Guide</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 pt-4">
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/Data Science.jpg"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Data Science"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                The Data Science Course : 2019 Complete
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/Machine Learning.jpg"
+              style="height: 200px"
+              class="card-img-top"
+              alt=" Machine Learning"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Machine Learning A to Z : Hands on Python
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/android.jpg"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Android Oreo Developer"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                The Complete Android Oreo Developer Course
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Images/web-desing.jpg"
+              style="height: 200px"
+              class="card-img-top"
+              alt="Web Design & Design"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Practical Web Design & Design</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Start Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ****************************************   **************************************** -->
+    <div class="container-fluid footer mt-5">
+      <div class="row text-center">
+        <div class="col-lg-4 my-4">
+          <h3>ABOUT US</h3>
+          <p>
+            We are here to make online education more fun and accissible to all.
+            The creators of this page are Harsh Shelar and Mridul Pandey.
+            Copyright 1999-2019 by Refsnes Data. All Rights Reserved. IMPORTANT
+            LINKS About Us Contact Us
+          </p>
+        </div>
+        <div class="col-lg-4 my-4">
+          <h3>IMPORTANT LINKS</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 my-4">
+          <h3>Lifetime access</h3>
+          <ul>
+            <li><a href="#">Song.com</a></li>
+            <li><a href="#">WWEIndia.com</a></li>
+            <li><a href="#">GrammarAcademy</a></li>
+            <li><a href="#">JEE</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="coypridht text-center text-white">
+      <p class="py-3 mb-0">© 2019 Copyright <a href="#">E-Learn</a></p>
+    </div>
+    <!-- Bootstrap JavaScript & jQuery -->
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

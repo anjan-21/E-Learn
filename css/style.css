@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  background: url("../Images/home-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+
+.fp__bottom {
+  background-image: linear-gradient(
+    to right,
+    #641c4b,
+    #882b55,
+    #db466f,
+    #ed5864,
+    #f96e59
+  );
+  height: 130px;
+  margin-top: -35px !important;
+}
+
+.courses__card {
+  background-color: rgb(219, 219, 219);
+}
+.card {
+  border: none;
+}
+.card:hover {
+  box-shadow: 10px 10px 12px 4px #807880;
+}
+.footer ul li {
+  list-style: none;
+}
+.coypridht {
+  background-color: black;
+}
