@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* **************************************** Hero Page Styling Start **************************************** */
 .jumbotron {
   background: url("../Images/home-bg.jpg");
   background-size: cover;
@@ -21,7 +21,9 @@ html {
   height: 130px;
   margin-top: -35px !important;
 }
+/* **************************************** Hero Page Styling End **************************************** */
 
+/* **************************************** Courses Details Styling End **************************************** */
 .courses__card {
   background-color: rgb(219, 219, 219);
 }
@@ -31,9 +33,13 @@ html {
 .card:hover {
   box-shadow: 10px 10px 12px 4px #807880;
 }
+/* **************************************** Courses Details Styling End **************************************** */
+
+/* **************************************** Footer Styling End **************************************** */
 .footer ul li {
   list-style: none;
 }
 .coypridht {
   background-color: black;
 }
+/* **************************************** Footer Styling End **************************************** */
